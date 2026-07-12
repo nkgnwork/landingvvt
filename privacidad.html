@@ -1,0 +1,362 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Política de Privacidad · Villa Volcán Tours</title>
+  <meta name="description" content="Política de privacidad y protección de datos de Villa Volcán Tours SpA. Cumplimiento Ley 19.628 Chile y RGPD.">
+  <meta name="robots" content="noindex,follow">
+  <link rel="canonical" href="https://villavolcantours.cl/privacidad.html">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:wght@400;600&family=Outfit:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml;utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%231A110A'/%3E%3Cpath d='M10 50 L26 24 L36 38 L44 28 L54 50 Z' fill='%23C44A2B'/%3E%3Cpath d='M22 24 a4 4 0 1 1 8 0 a4 4 0 0 1 -8 0' fill='%23D9A441'/%3E%3C/svg%3E">
+  <style>
+    :root {
+      --papel:    #F4ECDC;
+      --tinta:    #1A110A;
+      --cobre:    #B06E3A;
+      --magma:    #C44A2B;
+      --ocre:     #D9A441;
+      --turquesa: #3E8A8A;
+      --sepia:    #5B4432;
+      --arena:    #C9B893;
+    }
+    *, *::before, *::after { box-sizing: border-box; }
+    html { scroll-behavior: smooth; }
+    body {
+      margin: 0;
+      background: var(--papel);
+      color: var(--tinta);
+      font-family: "Outfit", system-ui, sans-serif;
+      font-size: 1.0625rem;
+      line-height: 1.7;
+      font-weight: 400;
+      -webkit-font-smoothing: antialiased;
+    }
+    a { color: var(--magma); text-decoration: none; }
+    a:hover { text-decoration: underline; }
+    nav {
+      background: var(--tinta);
+      padding: 1rem 2rem;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 1rem;
+      position: sticky;
+      top: 0;
+      z-index: 100;
+    }
+    .nav-brand {
+      font-family: "Fraunces", serif;
+      font-weight: 600;
+      font-size: 1.125rem;
+      color: var(--papel);
+      letter-spacing: 0.02em;
+      text-decoration: none;
+    }
+    .nav-brand span { color: var(--ocre); }
+    .nav-links {
+      display: flex;
+      gap: 1.5rem;
+      list-style: none;
+      margin: 0; padding: 0;
+    }
+    .nav-links a {
+      color: var(--arena);
+      font-size: 0.875rem;
+      font-weight: 400;
+      letter-spacing: 0.04em;
+      text-transform: uppercase;
+    }
+    .nav-links a:hover { color: var(--ocre); text-decoration: none; }
+    @media (max-width: 600px) { .nav-links { display: none; } }
+    .page-hero {
+      background: var(--sepia);
+      padding: 3.5rem 2rem 3rem;
+      text-align: center;
+    }
+    .page-kicker {
+      font-family: "Outfit", sans-serif;
+      font-size: 0.8125rem;
+      font-weight: 600;
+      letter-spacing: 0.12em;
+      text-transform: uppercase;
+      color: var(--ocre);
+      margin: 0 0 0.75rem;
+    }
+    .page-title {
+      font-family: "Fraunces", serif;
+      font-weight: 600;
+      font-size: clamp(1.75rem, 5vw, 2.75rem);
+      color: var(--papel);
+      margin: 0 0 0.75rem;
+      line-height: 1.2;
+    }
+    .page-updated { font-size: 0.875rem; color: var(--arena); margin: 0; }
+    .container { max-width: 780px; margin: 0 auto; padding: 3rem 2rem 5rem; }
+    h2 {
+      font-family: "Fraunces", serif;
+      font-weight: 600;
+      font-size: clamp(1.2rem, 2.5vw, 1.5rem);
+      color: var(--sepia);
+      margin: 2.5rem 0 0.75rem;
+      padding-top: 0.5rem;
+      border-top: 2px solid var(--ocre);
+    }
+    h3 { font-family: "Outfit", sans-serif; font-weight: 600; font-size: 1rem; color: var(--tinta); margin: 1.75rem 0 0.5rem; }
+    p { margin: 0 0 1rem; }
+    ul, ol { padding-left: 1.5rem; margin: 0 0 1rem; }
+    li { margin-bottom: 0.35rem; }
+    strong { font-weight: 600; color: var(--tinta); }
+    .table-wrap { overflow-x: auto; margin: 1.25rem 0; }
+    table { width: 100%; border-collapse: collapse; font-size: 0.9375rem; }
+    th {
+      background: var(--tinta);
+      color: var(--papel);
+      font-family: "Outfit", sans-serif;
+      font-weight: 600;
+      font-size: 0.8125rem;
+      letter-spacing: 0.05em;
+      text-transform: uppercase;
+      padding: 0.625rem 1rem;
+      text-align: left;
+    }
+    td { padding: 0.625rem 1rem; border-bottom: 1px solid rgba(90,68,50,0.15); vertical-align: top; }
+    tr:last-child td { border-bottom: none; }
+    tr:nth-child(even) td { background: rgba(244,236,220,0.6); }
+    .callout {
+      background: rgba(62,138,138,0.07);
+      border-left: 3px solid var(--turquesa);
+      border-radius: 0 4px 4px 0;
+      padding: 1rem 1.25rem;
+      margin: 1.5rem 0;
+      font-size: 0.9375rem;
+    }
+    .callout strong { color: var(--turquesa); }
+    .rights-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+      gap: 1rem;
+      margin: 1.5rem 0;
+    }
+    .right-item {
+      background: white;
+      border: 1px solid rgba(90,68,50,0.15);
+      border-radius: 6px;
+      padding: 1rem;
+    }
+    .right-item .right-name {
+      font-family: "Outfit", sans-serif;
+      font-weight: 600;
+      font-size: 0.9rem;
+      color: var(--sepia);
+      margin-bottom: 0.35rem;
+    }
+    .right-item p { font-size: 0.875rem; margin: 0; color: #555; }
+    .contact-card {
+      background: var(--tinta);
+      color: var(--papel);
+      border-radius: 8px;
+      padding: 1.75rem 2rem;
+      margin: 3rem 0 0;
+    }
+    .contact-card h2 { border-top: none; color: var(--ocre); margin-top: 0; padding-top: 0; }
+    .contact-card p { color: var(--arena); margin-bottom: 0.5rem; }
+    .contact-card a { color: var(--ocre); }
+    .legal-nav {
+      display: flex;
+      gap: 0.5rem 1.5rem;
+      flex-wrap: wrap;
+      padding: 1.25rem 0;
+      border-bottom: 1px solid rgba(90,68,50,0.2);
+      margin-bottom: 2rem;
+      font-size: 0.875rem;
+    }
+    .legal-nav a { color: var(--cobre); font-weight: 500; }
+    .legal-nav span { color: var(--tinta); font-weight: 600; }
+    footer { background: var(--tinta); color: var(--arena); text-align: center; padding: 2rem; font-size: 0.875rem; }
+    footer a { color: var(--ocre); }
+    @media print {
+      nav, footer { display: none; }
+      body { background: white; color: black; font-size: 11pt; }
+    }
+  </style>
+</head>
+<body>
+
+<nav>
+  <a class="nav-brand" href="index.html">Villa Volcán <span>Tours</span></a>
+  <ul class="nav-links">
+    <li><a href="index.html">Inicio</a></li>
+    <li><a href="index.html#tours">Tours</a></li>
+    <li><a href="index.html#cotizar">Cotizar</a></li>
+    <li><a href="terminos.html">Términos</a></li>
+    <li><a href="cancelacion.html">Cancelación</a></li>
+  </ul>
+</nav>
+
+<div class="page-hero">
+  <p class="page-kicker">Legal · Villa Volcán Tours SpA</p>
+  <h1 class="page-title">Política de Privacidad</h1>
+  <p class="page-updated">Última actualización: 27 de mayo de 2026 · Ley 19.628 Chile · RGPD (UE)</p>
+</div>
+
+<div class="container">
+
+  <nav class="legal-nav" aria-label="Documentos legales">
+    <a href="terminos.html">Términos y Condiciones</a>
+    <a href="cancelacion.html">Política de Cancelación</a>
+    <span>Política de Privacidad</span>
+  </nav>
+
+  <p>Esta Política describe cómo <strong>Villa Volcán Tours SpA</strong> recolecta, usa, comparte y protege los datos personales de sus clientes y visitantes del sitio. Cumplimos con la Ley 19.628 de Chile sobre Protección de la Vida Privada y, dada nuestra cartera de clientes europeos, con los principios del Reglamento General de Protección de Datos de la Unión Europea (GDPR / RGPD).</p>
+
+  <h2>1. Responsable del tratamiento</h2>
+  <p>
+    <strong>Villa Volcán Tours SpA</strong><br>
+    RUT: 78.118.649-K<br>
+    Dirección: Baquedano 80, Putre, Región de Arica y Parinacota, Chile<br>
+    Email: <a href="mailto:contacto@villavolcantours.cl">contacto@villavolcantours.cl</a>
+  </p>
+
+  <h2>2. Datos que recolectamos</h2>
+  <p>Recolectamos únicamente los datos necesarios para prestar nuestros servicios:</p>
+  <div class="table-wrap">
+    <table>
+      <thead><tr><th>Categoría</th><th>Ejemplos</th><th>Cuándo</th></tr></thead>
+      <tbody>
+        <tr><td>Identificación</td><td>Nombre, apellido, fecha de nacimiento, nacionalidad, número de pasaporte</td><td>Al hacer una reserva</td></tr>
+        <tr><td>Contacto</td><td>Email, teléfono, WhatsApp</td><td>Al hacer una reserva o consulta</td></tr>
+        <tr><td>Pago</td><td>Datos procesados directamente por Stripe / Wise; no almacenamos números de tarjeta</td><td>Al pagar</td></tr>
+        <tr><td>Información médica relevante</td><td>Alergias, condiciones que afecten la actividad en altura</td><td>Solo si el cliente lo declara voluntariamente</td></tr>
+        <tr><td>Datos de navegación</td><td>Dirección IP, navegador, páginas visitadas</td><td>Al visitar el sitio web</td></tr>
+      </tbody>
+    </table>
+  </div>
+
+  <h2>3. Finalidades del tratamiento</h2>
+  <p>Usamos sus datos para:</p>
+  <ul>
+    <li>Confirmar y gestionar su reserva.</li>
+    <li>Enviarle voucher, instrucciones, recordatorios y comunicaciones operativas vía email y/o WhatsApp.</li>
+    <li>Cumplir obligaciones tributarias y contables (emisión de boleta o factura).</li>
+    <li>Prevenir fraude y proteger nuestra operación.</li>
+    <li>Mejorar nuestros servicios mediante análisis agregado.</li>
+    <li>Marketing directo (solo con consentimiento explícito y con opción a retirarlo en cualquier momento).</li>
+  </ul>
+
+  <h2>4. Base legal del tratamiento (RGPD para clientes europeos)</h2>
+  <div class="table-wrap">
+    <table>
+      <thead><tr><th>Finalidad</th><th>Base legal</th></tr></thead>
+      <tbody>
+        <tr><td>Gestión de reserva y prestación del servicio</td><td>Ejecución del contrato (Art. 6.1.b RGPD)</td></tr>
+        <tr><td>Cumplimiento tributario</td><td>Obligación legal (Art. 6.1.c RGPD)</td></tr>
+        <tr><td>Marketing directo</td><td>Consentimiento (Art. 6.1.a RGPD)</td></tr>
+        <tr><td>Prevención de fraude</td><td>Interés legítimo (Art. 6.1.f RGPD)</td></tr>
+      </tbody>
+    </table>
+  </div>
+
+  <h2>5. Compartir datos con terceros</h2>
+  <p>Compartimos datos únicamente con proveedores que necesitamos para operar:</p>
+  <div class="table-wrap">
+    <table>
+      <thead><tr><th>Tercero</th><th>Finalidad</th><th>Datos compartidos</th></tr></thead>
+      <tbody>
+        <tr><td>Stripe Payments Inc. (USA)</td><td>Procesamiento de pagos</td><td>Email, nombre, monto</td></tr>
+        <tr><td>Wise Payments Ltd. (UK)</td><td>Procesamiento de transferencias SEPA</td><td>Email, nombre, monto, referencia</td></tr>
+        <tr><td>Proveedor WhatsApp Business API</td><td>Mensajería con cliente</td><td>Teléfono, nombre</td></tr>
+        <tr><td>Supabase Inc. (USA)</td><td>Almacenamiento de reservas</td><td>Datos de la reserva</td></tr>
+        <tr><td>Contador y SII Chile</td><td>Cumplimiento tributario</td><td>Datos de facturación</td></tr>
+        <tr><td>Proveedores de servicios (alojamiento, etc.)</td><td>Prestación efectiva del servicio</td><td>Nombre, fechas, número de personas</td></tr>
+      </tbody>
+    </table>
+  </div>
+  <div class="callout">
+    <strong>Transferencias internacionales:</strong> algunos proveedores están en EE.UU. o Reino Unido. Aplicamos las salvaguardas estándar (Standard Contractual Clauses de la Comisión Europea). <strong>No vendemos datos a terceros bajo ninguna circunstancia.</strong>
+  </div>
+
+  <h2>6. Plazo de conservación</h2>
+  <div class="table-wrap">
+    <table>
+      <thead><tr><th>Tipo de dato</th><th>Plazo</th></tr></thead>
+      <tbody>
+        <tr><td>Datos de reserva activos</td><td>Hasta finalizar el servicio</td></tr>
+        <tr><td>Datos contables (facturas, boletas)</td><td>6 años, según legislación tributaria chilena</td></tr>
+        <tr><td>Comunicaciones (emails, WhatsApp)</td><td>3 años, para soporte y resolución de disputas</td></tr>
+        <tr><td>Datos de marketing</td><td>Hasta que el cliente retire su consentimiento</td></tr>
+      </tbody>
+    </table>
+  </div>
+
+  <h2>7. Sus derechos</h2>
+  <p>Como titular de sus datos, usted tiene derecho a:</p>
+  <div class="rights-grid">
+    <div class="right-item">
+      <div class="right-name">Acceso</div>
+      <p>Saber qué datos suyos tenemos.</p>
+    </div>
+    <div class="right-item">
+      <div class="right-name">Rectificación</div>
+      <p>Corregir datos inexactos.</p>
+    </div>
+    <div class="right-item">
+      <div class="right-name">Supresión</div>
+      <p>Eliminar sus datos cuando ya no sean necesarios.</p>
+    </div>
+    <div class="right-item">
+      <div class="right-name">Oposición</div>
+      <p>Oponerse al tratamiento basado en interés legítimo.</p>
+    </div>
+    <div class="right-item">
+      <div class="right-name">Portabilidad</div>
+      <p>Recibir sus datos en formato estructurado.</p>
+    </div>
+    <div class="right-item">
+      <div class="right-name">Retiro de consentimiento</div>
+      <p>En cualquier momento para marketing.</p>
+    </div>
+  </div>
+  <p>Para ejercer estos derechos, escribir a <a href="mailto:contacto@villavolcantours.cl">contacto@villavolcantours.cl</a> indicando el derecho que ejerce y adjuntando copia de su documento de identidad. Respondemos en un plazo máximo de 30 días.</p>
+  <p>Si considera que el tratamiento no cumple con la normativa, puede presentar un reclamo ante la autoridad de protección de datos de su país (en la UE: la Agencia de Protección de Datos correspondiente).</p>
+
+  <h2>8. Cookies</h2>
+  <p>Nuestro sitio usa cookies técnicas necesarias para su funcionamiento. No usamos cookies de rastreo publicitario de terceros.</p>
+
+  <h2>9. Seguridad</h2>
+  <p>Aplicamos medidas técnicas y organizacionales razonables para proteger los datos: cifrado en tránsito (HTTPS), control de accesos, copias de seguridad, y selección de proveedores certificados (Stripe, Supabase). En caso de incidente que afecte sus datos, le notificaremos en un plazo máximo de 72 horas según exige el RGPD.</p>
+
+  <h2>10. Menores</h2>
+  <p>No prestamos servicios a menores de edad sin acompañamiento de adulto responsable. No recolectamos datos de menores de manera independiente.</p>
+
+  <h2>11. Cambios a esta política</h2>
+  <p>Podemos actualizar esta Política. La versión vigente siempre estará publicada en esta URL con su fecha de actualización. Cambios sustanciales se notifican por email a clientes activos.</p>
+
+  <div class="contact-card">
+    <h2>12. Contacto sobre privacidad</h2>
+    <p><strong style="color:var(--papel)">Villa Volcán Tours SpA</strong></p>
+    <p>RUT: 78.118.649-K</p>
+    <p>Email: <a href="mailto:contacto@villavolcantours.cl">contacto@villavolcantours.cl</a></p>
+    <p>Dirección: Baquedano 80, Putre, Región de Arica y Parinacota, Chile</p>
+    <p style="margin-top:1.5rem; font-size:0.875rem">
+      <a href="terminos.html">Términos y Condiciones</a> &nbsp;·&nbsp;
+      <a href="cancelacion.html">Política de Cancelación</a>
+    </p>
+  </div>
+
+</div>
+
+<footer>
+  <p>© 2026 Villa Volcán Tours SpA · RUT 78.118.649-K · Putre, Chile</p>
+  <p style="margin-top:0.5rem">
+    <a href="index.html">Volver al sitio</a> &nbsp;·&nbsp;
+    <a href="terminos.html">Términos</a> &nbsp;·&nbsp;
+    <a href="cancelacion.html">Cancelación</a> &nbsp;·&nbsp;
+    <a href="privacidad.html">Privacidad</a>
+  </p>
+</footer>
+
+</body>
+</html>
